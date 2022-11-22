@@ -16,20 +16,32 @@ justify-content-center" href="index.html">
 
     <!-- Heading -->
     <div class="sidebar-heading">
-        Master Data
+        Dashboard
     </div>
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
         <!-- Nav Item - Dashboard -->
     <li class="nav-item">
-        <a class="nav-link pb-0" href="<?=
-                                        base_url('buku'); ?>">
+        <a class="nav-link pb-0" href="<?= base_url('admin'); ?>">
+            <i class="fa fa-fw fa book"></i>
+			<span>Home</span></a>
+    </li>
+    <div class="sidebar-heading mt-3"> 
+        Master Data
+    </div>
+	<!-- Nav Item - Dashboard -->
+    <li class="nav-item">
+        <a class="nav-link pb-0" href="<?= base_url('kategori_buku'); ?>">
+            <i class="fa fa-fw fa book"></i>
+            <span>Kategori Buku</span></a>
+    </li>
+	<li class="nav-item">
+        <a class="nav-link pb-0" href="<?= base_url('kategori_buku'); ?>">
             <i class="fa fa-fw fa book"></i>
             <span>Data Buku</span></a>
     </li>
-    <li class="nav-item">
-        <a class="nav-link pb-0" href="<?=
-                                        base_url('user/anggota'); ?>">
+	<li class="nav-item">
+        <a class="nav-link pb-0" href="<?= base_url('user/Anggota'); ?>">
             <i class="fa fa-fw fa book"></i>
             <span>Data Anggota</span></a>
     </li>
